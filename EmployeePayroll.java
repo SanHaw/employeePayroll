@@ -1,7 +1,7 @@
 //CS 1233 - Computer Programming 2
 //Class 4-301 TTh 7:40A - 10:10A
 //Machine Problem 1 - Employee Payroll
-//Sarah Haw & Arabella Grace Mejorada
+//Sarah Haw & Arabella Grace Mejorada 
 
 
 import java.io.File; // input and output operations
