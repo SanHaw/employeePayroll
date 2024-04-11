@@ -3,7 +3,7 @@
 //Machine Problem 1 - Employee Payroll
 //Sarah Haw & Arabella Grace Mejorada 
 
-
+ 
 import java.io.File; // input and output operations
 import java.io.FileWriter; //write characters to a file
 import java.io.IOException; // a checked exception that indicates an error occurred during input/output operations
