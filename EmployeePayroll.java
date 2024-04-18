@@ -2,7 +2,6 @@
 //Class 4-301 TTh 7:40A - 10:10A
 //Machine Problem 1 - Employee Payroll
 //Sarah Haw & Arabella Grace Mejorada 
-
  
 import java.io.File; // input and output operations
 import java.io.FileWriter; //write characters to a file
@@ -43,7 +42,7 @@ public class EmployeePayroll {
 				catch (IOException e) {
 					System.out.println("ERROR" + e.getMessage());
 				}
-			
+
 	}
 
 	// input for name
