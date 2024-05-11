@@ -2,7 +2,7 @@
 //Class 4-301 TTh 7:40A - 10:10A
 //Machine Problem 1 - Employee Payroll
 //Sarah Haw & Arabella Grace Mejorada 
- 
+   
 import java.io.File; // input and output operations
 import java.io.FileWriter; //write characters to a file
 import java.io.IOException; // a checked exception that indicates an error occurred during input/output operations
@@ -84,7 +84,7 @@ public class EmployeePayroll {
 		double netPay     = grossPay - deductions;
 
 		//-------------------------------------------------------------------------
-
+ 
 		// output payroll details
 		System.out.println("Net Pay:         " + (netPay));
 		System.out.println("Withholding tax: " + (withTax));
@@ -116,7 +116,7 @@ public class EmployeePayroll {
 		double sssValue = 0.0;;
    
 			for (int i = 1; i <= numEmployee; i++){
-	
+	 
 				if      (grossPay >= 0.00     && grossPay <= 4249.99)  {sssValue  = 90.00;}
 				else if (grossPay >= 4250.00  && grossPay  <= 4749.99) {sssValue  = 101.25;}
 				else if (grossPay >= 4850.00  && grossPay <= 5249.99)  {sssValue  = 112.50;}
@@ -166,11 +166,11 @@ public class EmployeePayroll {
 		else if (grossPay >= 33333 && grossPay <= 83332)  {withTax = (4270.70+((grossPay-33333)*0.25)); }
 		else if (grossPay >= 83333 && grossPay <= 333332) {withTax = (16770.70+((grossPay-83333)*0.3)); }
 		else                                              {withTax = (91770.70+((grossPay-333333)*0.35)); }
-	
+	 
 
 	    return withTax;
 	}
-
+  
 	// calculate phil health contribution
 	private static double calculatephilHealth(double grossPay) {
 		return grossPay * philHealthPercent;
